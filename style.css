@@ -1,0 +1,61 @@
+.bg-image {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 303px;
+    width: 100%;
+    position: relative;
+}
+
+.bg-image-maps {
+    background: transparent url('img/Map.png') 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 303px;
+    width: 50%;
+    position: absolute;
+    left: 40%;
+}
+
+.doc-logo {
+    top: 31px;
+    left: 154px;
+    width: auto;
+    height: 65px;
+    margin-bottom: 10px;
+}
+
+.bg-image-title {
+    text-align: left;
+    font: normal normal 600 28px Open Sans;
+    letter-spacing: 0px;
+    color: #011132;
+    text-transform: uppercase;
+    opacity: 1;
+}
+ .title-indo {
+     color: #50A5D8;
+ }
+
+.bg-image-desc {
+    text-align: left;
+    font: normal normal 300 16px Open Sans;
+    letter-spacing: 0px;
+    color: #011132;
+    opacity: 1;
+}
+
+.bg-image-button {
+    background: rgb(46,90,169);
+    background: linear-gradient(180deg, rgba(46,90,169,1) 40%, rgba(24,67,149,1) 100%);
+    border-radius: 6%;
+    font-size: 16px;
+    color: #fff;
+    padding: 12px 40px;
+    opacity: 1;
+    margin-top: 30px;
+}
