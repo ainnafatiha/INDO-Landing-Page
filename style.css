@@ -145,7 +145,7 @@ h3 {
     padding: 20px;
 }
 
-/* 4. 3 EASY STEPS SECTION */
+/* 4. THREE EASY STEPS SECTION */
 .three-steps-section {
     margin-top: 230px;
     width: 100%;
@@ -158,10 +158,8 @@ h3 {
 }
 
 h3 {
-    text-align: left;
     font: normal normal 600 34px/42px Open Sans;
     letter-spacing: 0px;
-    color: #011132;
     text-transform: uppercase;
     opacity: 1;
 }
@@ -220,7 +218,6 @@ h3 {
 .three-steps-img {
     width: 51px;
     height: 46px;
-    /* transform: matrix(-1, 0, 0, -1, 0, 0); */
     opacity: 1;
     float: right;
     margin-top: 30px;
@@ -242,4 +239,69 @@ h3 {
     color: #011132;
     opacity: 1;
     margin-top: 21px;
+}
+
+/* 5. THREE STEPS BUTTON */
+.three-steps-button-section {
+    margin-top: 95px;
+    text-align: center;
+}
+
+.three-steps-button {
+    background: rgb(46,90,169);
+    background: linear-gradient(180deg, rgba(46,90,169,1) 40%, rgba(24,67,149,1) 100%);
+    border-radius: 15px;
+    font: normal normal bold 20px/12px Open Sans;
+    font-size: 16px;
+    color: #fff;
+    padding: 12px 40px;
+    width: 225px;
+    height: 58px;
+    opacity: 1;
+}
+
+/* 6. DAPATKAN HADIAH SECTION */
+
+
+/* 7. MITRA DOCTORONCALL SECTION */
+.partner-class-section {
+    margin-top: 200px;
+}
+
+.partner-background {
+    background: #E5E5E54B 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 737px;
+    width: 100%;
+    position: relative;
+}
+
+.partner-title-class {
+    margin: -12% 0 50px;
+    padding-top: 20px;
+}
+
+.partner-title-text {
+    text-align: center;
+    font: normal normal 600 34px/19px Open Sans;
+    color: #414141;
+    letter-spacing: 0px;
+    opacity: 1;
+    text-transform: none;
+}
+
+.partner-img {
+    background: transparent url('img/partners@2x.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: absolute;
 }
