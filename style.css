@@ -1,61 +1,135 @@
-.bg-image {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    opacity: 1;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 303px;
-    width: 100%;
-    position: relative;
-}
-
-.bg-image-maps {
-    background: transparent url('img/Map.png') 0% 0% no-repeat padding-box;
-    opacity: 0.5;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 303px;
-    width: 50%;
-    position: absolute;
-    left: 40%;
-}
-
+/* 1. MAPS BANNER SECTION */
 .doc-logo {
     top: 31px;
     left: 154px;
     width: auto;
     height: 65px;
-    margin-bottom: 10px;
+    margin: 10px 10px;
 }
 
-.bg-image-title {
+.maps-image {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 403px;
+    width: 100%;
+    position: relative;
+}
+
+.maps-bg {
+    background: transparent url('img/Map.png') 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 403px;
+    width: 70%;
+    position: absolute;
+    left: 30%;
+}
+
+.maps-title {
     text-align: left;
-    font: normal normal 600 28px Open Sans;
+    font: normal normal 600 34px/42px Open Sans;
     letter-spacing: 0px;
     color: #011132;
     text-transform: uppercase;
     opacity: 1;
 }
+
  .title-indo {
      color: #50A5D8;
  }
 
-.bg-image-desc {
+.maps-desc {
     text-align: left;
-    font: normal normal 300 16px Open Sans;
+    font: normal normal normal 20px/28px Open Sans;
     letter-spacing: 0px;
     color: #011132;
     opacity: 1;
 }
 
-.bg-image-button {
+.maps-button {
     background: rgb(46,90,169);
     background: linear-gradient(180deg, rgba(46,90,169,1) 40%, rgba(24,67,149,1) 100%);
     border-radius: 6%;
+    font: normal normal bold 20px/12px Open Sans;
     font-size: 16px;
     color: #fff;
     padding: 12px 40px;
     opacity: 1;
     margin-top: 30px;
+}
+
+/* 2. SIAPA DOC SECTION */
+/* .intro-img {
+    position: ;
+    width: auto;
+    height: 339px;
+    top: 595px;
+} */
+
+.intro-banner {
+    background: transparent url('img/Group50.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 422px;
+    float: right;
+    width: 90%;
+    position: relative;
+}
+
+.intro-desc {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #fff;
+    opacity: 1;
+    position: absolute;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    padding-left: 150px;
+    padding-right: 30px;
+
+}
+
+.intro-banner-title {
+    font: normal normal 600 34px/15px Open Sans;
+}
+
+.short-intro {
+    font: normal normal normal 20px/28px Open Sans;
+}
+
+/* 3. MENGAPA MEMILIH KAMI SECTION */
+.benefits-section {
+    margin-top: 630px;
+}
+
+.benefits-bg-img {
+    background: transparent url('img/Group\ 51.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 476px;
+    width: 100%;
+    position: relative;
+}
+
+.benefits-title-class {
+    color: #011132;
+	margin: -12% 0 50px;
+	text-align: left;
+}
+
+h3 {
+    font: normal normal 600 34px/15px Open Sans;
+    letter-spacing: 0px;
+    color: #011132;
+    text-transform: uppercase;
+    opacity: 1;
 }
