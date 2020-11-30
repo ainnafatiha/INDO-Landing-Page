@@ -1,137 +1,204 @@
-/* 1. MAPS BANNER SECTION */
+/* TABLE OF CONTENT
+
+1. BODY SECTION
+2. LOGO
+3. MAPS BANNER SECTION
+4. SIAPA DOC SECTION
+5. MENGAPA MEMILIH KAMI SECTION
+6. MENGAPA MEMILIH KAMI BUTTON SECTION
+7. TIGA LANGKAH MUDAH SECTION
+8. TIGA LANGKAH MUDAH BUTTON SECTION
+9. DAPATKAN HADIAH SECTION
+10. MITRA DOCTORONCALL SECTION
+11. FOOTER*/
+
 body {
-    background: #F8F8F8 0% 0% no-repeat padding-box;
+    background: #F8F8F8;
     opacity: 1;
+    font-family: 'Open Sans';
 }
 
 .doc-logo {
-    top: 31px;
-    left: 154px;
-    width: auto;
     height: 65px;
+    left: 154px;
     margin-bottom: 20px;
+    top: 31px;
+    width: auto;
 }
 
+@media(max-width: 576px) {
+    .doc-logo {
+        height: 39px;
+    }
+}
+
+/* 3. MAPS BANNER SECTION */
 .maps-image {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    opacity: 1;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('img/Map.png');
+    background-color: #fff;
     height: 403px;
-    width: 100%;
-    position: relative;
-    padding-top: 10px;
+    opacity: 1;
     padding-left: 35px;
+    padding-top: 10px;
+    width: 100%;
 }
 
-.maps-bg {
-    background: transparent url('img/Map.png') 0% 0% no-repeat padding-box;
-    opacity: 0.5;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 403px;
-    width: 70%;
-    position: absolute;
-    left: 30%;
+.maps-text-class {
+    color: #011132;
+    text-align: left;
 }
 
 .maps-title {
-    text-align: left;
     font: normal normal 600 34px/42px Open Sans;
-    letter-spacing: 0px;
-    color: #011132;
     text-transform: uppercase;
-    opacity: 1;
 }
 
- .title-indo {
+.title-indo {
      color: #50A5D8;
  }
 
 .maps-desc {
-    text-align: left;
     font: normal normal normal 20px/28px Open Sans;
-    letter-spacing: 0px;
-    color: #011132;
-    opacity: 1;
 }
 
 .maps-button {
-    background: rgb(46,90,169);
     background: linear-gradient(180deg, rgba(46,90,169,1) 40%, rgba(24,67,149,1) 100%);
+    background: rgb(46,90,169);
     border-radius: 15px;
-    font: normal normal bold 20px/12px Open Sans;
-    font-size: 16px;
     color: #fff;
+    font: normal normal bold 20px/12px Open Sans;
+    height: 56px;
+    margin: 30px;
     padding: 12px 40px;
     width: 206px;
-    height: 56px;
-    opacity: 1;
-    margin: 30px;
 }
 
-/* 2. SIAPA DOC SECTION */
-/* .intro-img {
-    position: ;
-    width: auto;
-    height: 339px;
-    top: 595px;
-} */
+@media(max-width: 576px) {
+    .maps-image {
+        height: unset;
+        padding: 10px;
+        text-align: center;
+    }   
 
-.intro-banner {
-    background: transparent url('img/Group50.svg') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 422px;
-    float: right;
-    margin-top: 50px;
-    width: 90%;
-    position: relative;
+    .maps-text-class {
+        text-align: center;
+    }
+
+    .maps-title {
+        font: normal normal 600 18px/22px Open Sans;
+    }
+
+    .maps-desc {
+        font: normal normal 300 13px/18px Open Sans;
+    }
+
+    .maps-button {
+        width: 103px;
+        height: 28px;
+        border-radius: 5px;
+        font: normal normal bold 11px/12px Open Sans;
+        margin: 2px;
+        padding: 0px 6px;
+    }
 }
 
-.intro-desc {
-    text-align: left;
-    letter-spacing: 0px;
-    color: #fff;
-    opacity: 1;
+/* 4. SIAPA DOC SECTION */
+.intro-banner-img {
+    padding-top: 50px;
     position: absolute;
-    padding-top: 80px;
-    padding-bottom: 120px;
-    padding-left: 150px;
-    padding-right: 30px;
+    width: 250px;
+    z-index: 1;
+}
 
+@media(max-width: 576px) {
+    .intro-banner-img {
+        width: 115px;
+        z-index: 1;
+        position: absolute;
+        margin-top: 20px;
+    }  
+}
+
+.intro-banner-class {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url('img/Group50.svg');
+    height: 422px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+@media(max-width: 576px) {
+    .intro-banner-class {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #10327A;
+        background-image: url('img/Lines.svg');
+        width: 90%;
+        float: right;
+        height: unset;
+    }
+}
+
+.intro-desc-class {
+    color: #fff;
+    padding: 50px 80px 0px 250px;
+    text-align: center;
+}
+
+@media(max-width: 576px) {
+    .intro-desc-class {
+        padding-top: 10px;
+        padding-left: 82px;
+    }    
 }
 
 .intro-banner-title {
     font: normal normal 600 34px/15px Open Sans;
+    text-align: left;
+}
+
+@media(max-width: 576px) {
+    .intro-banner-title {
+        font: normal normal 600 18px/15px Open Sans;
+    }
 }
 
 .short-intro {
     font: normal normal normal 20px/28px Open Sans;
+    text-align: left;
 }
 
-/* 3. MENGAPA MEMILIH KAMI SECTION */
+@media(max-width: 576px) {
+    .short-intro {
+        font: normal normal normal 13px/18px Open Sans;
+    }
+}
+
+/* 5. MENGAPA MEMILIH KAMI SECTION */
 .benefits-section {
+    background: #FFFFFF;
+    /* left: 103px; */
     margin-top: 670px;
+    /* opacity: 1; */
     width: 100%;
-    left: 103px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    opacity: 1;
+    padding: 10px;
 }
 
 .benefits-bg-img {
-    background: transparent url('img/Group\ 51.svg') 0% 0% no-repeat padding-box;
-    opacity: 1;
+    background: transparent url('img/Group\ 51.svg');
     /* background-size: contain; */
     background-repeat: no-repeat;
     background-position: center center;
-    height: 400px;
+    /* height: 400px; */
+    opacity: 1;
+    /* position: relative; */
     width: 100%;
-    position: relative;
 }
 
 .benefits-title-class {
@@ -141,46 +208,56 @@ body {
 }
 
 h3 {
+    color: #011132;
     font: normal normal 600 34px/15px Open Sans;
     letter-spacing: 0px;
-    color: #011132;
-    text-transform: uppercase;
     opacity: 1;
-    padding-top: 20px;
     padding-left: 15px;
+    padding-top: 20px;
+    text-transform: uppercase;
 }
 
 .benefits-card{
-    background: #10327A 0% 0% no-repeat padding-box;;
-    box-shadow: 0px 4px 5px #00000029;
-    opacity: 1;
-    width: 193px;
-    height: 263px;
-    padding: 5px 20px;
+    background: #10327A;
     border-radius:  0px 40px;
-    position: relative;
-    top: 50px;
-    left: 30px;
+    box-shadow: 0px 4px 5px #00000029;
+    height: 263px;
+    /* left: 30px; */
+    /* opacity: 1; */
+    padding: 10px;
+    /* position: relative;
+    top: 50px; */
+    /* width: 193px; */
 }
 
 .benefits-card-title-1{
-    text-align: left;
-    font: normal normal bold 20px/28px Open Sans;
-    letter-spacing: 0px;
     color: #FFFFFF;
-    opacity: 1;
-    margin-left: 20px;
+    /* font: normal normal bold 20px/28px Open Sans; */
+    /* letter-spacing: 0px; */
+    /* margin-left: 20px;
+    opacity: 1; */
+    text-align: left;
 }
 
-.benefits-card-title-2,.benefits-card-title-3, .benefits-card-title-4{
-    text-align: left;
+/* .benefits-card-title-2,.benefits-card-title-3, .benefits-card-title-4{
+    color: #FFFFFF;
     font: normal normal 20px/28px Open Sans;
     letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
     margin-left: 20px;
     margin-top: 10px;
-}
+    opacity: 1;
+    text-align: left;
+} */
+
+/* .benefits-card-title-4 {
+    color: #FFFFFF;
+    font: normal normal 20px/28px Open Sans;
+    letter-spacing: 0px;
+    margin-left: 20px;
+    margin-top: 25px;
+    opacity: 1;
+    text-align: left;
+} */
 
 .benefits-card-img-1{
     display: block;
@@ -205,15 +282,15 @@ h3 {
     width: 60%;
 }
 
-/* .benefits-card-img-4{
+.benefits-card-img-4{
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
     width: 60%;
-} */
+}
 
-/* 4. BENEFITS BUTTON SECTION */
+/* 6. MENGAPA MEMILIH KAMI BUTTON SECTION */
 .benefits-button-section {
     margin-top: 95px;
     text-align: center;
@@ -232,7 +309,7 @@ h3 {
     opacity: 1;
 }
 
-/* 5. THREE EASY STEPS SECTION */
+/* 7. TIGA LANGKAH MUDAH SECTION */
 .three-steps-section {
     margin-top: 230px;
     width: 100%;
@@ -247,88 +324,68 @@ h3 {
 h3 {
     font: normal normal 600 34px/42px Open Sans;
     letter-spacing: 0px;
+    opacity: 1;
     text-transform: uppercase;
-    opacity: 1;
+    
 }
-
-/* .three-steps-img1 {
-    width: 287px;
-    height: 372px;
-    background: url('img/Group 24.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    float: right; 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right right;
-}
-
-.three-steps-img2 {
-    width: 287px;
-    height: 372px;
-    background: url('img/Group 42.png') 0% 0% no-repeat padding-box;
-    opacity: 1; 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: left left;
-} */
 
 .three-steps-card {
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 0px 4px 5px #00000029;
-    opacity: 1;
-    width: 261px;
-    height: 393px;
-    padding: 5px 20px;
     border-radius: 5px 20px 5px;
+    box-shadow: 0px 4px 5px #00000029;
+    height: 393px;
+    opacity: 1;
+    padding: 5px 20px;
     position: relative;
+    width: 261px;
 }
 
 .three-steps-num {
     background: #05DDC5 0% 0% no-repeat padding-box;
     border-radius: 0px 30px;
-    opacity: 1;
     height: 74px;
-    width: 74px;
-    position: absolute;
     margin-top: 20px;
+    opacity: 1;
+    position: absolute;
+    width: 74px;
 }
 
 .numbered-steps {
-    text-align: center;
+    color: #FFFFFF;
     font: normal normal 600 34px/12px Open Sans;
     letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
     margin-top: 25px;
+    opacity: 1;
+    text-align: center;
 }
 
 .three-steps-img {
-    width: 51px;
-    height: 46px;
-    opacity: 1;
     float: right;
+    height: 46px;
     margin-top: 30px;
+    opacity: 1;
+    width: 51px;
 }
 
 .three-steps-title {
-    text-align: left;
+    color: #011132;
     font: normal normal 600 20px/12px Open Sans;
     letter-spacing: 0px;
-    color: #011132;
-    opacity: 1;
     margin-top: 160px;
+    opacity: 1;
+    text-align: left;
 }
 
 .three-steps-text {
-    text-align: left;
+    color: #011132;
     font: normal normal normal 20px/28px Open Sans;
     letter-spacing: 0px;
-    color: #011132;
-    opacity: 1;
     margin-top: 21px;
+    opacity: 1;
+    text-align: left;
 }
 
-/* 6. THREE STEPS BUTTON */
+/* 8. TIGA LANGKAH MUDAH BUTTON */
 .three-steps-button-section {
     margin-top: 95px;
     text-align: center;
@@ -338,37 +395,37 @@ h3 {
     background: rgb(46,90,169);
     background: linear-gradient(180deg, rgba(46,90,169,1) 40%, rgba(24,67,149,1) 100%);
     border-radius: 15px;
+    color: #fff;
     font: normal normal bold 20px/12px Open Sans;
     font-size: 16px;
-    color: #fff;
-    padding: 12px 40px;
-    width: 225px;
     height: 58px;
     opacity: 1;
+    padding: 12px 40px;
+    width: 225px;
 }
 
-/* 7. DAPATKAN HADIAH SECTION */
+/* 9. DAPATKAN HADIAH SECTION */
 .get-prize-section {
     margin-top: 100px;
 }
 
 .get-prize-maintitle {
-    text-align: center;
+    color: #011132;
     font: normal normal 600 34px/15px Open Sans;
     letter-spacing: 0px;
-    color: #011132;
-    text-transform: uppercase;
     opacity: 1;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .get-prize-class {
     background: #10327A 0% 0% no-repeat padding-box;
-    height: 533px;
-    width: 93%;
-    opacity: 1;
     float: right;
+    height: 533px;
     margin-top: 30px;
+    opacity: 1;
     position: relative;
+    /* width: 93%; */
 }
 
 .get-prize-desc {
@@ -380,20 +437,20 @@ h3 {
 }
 
 .get-prize-title {
-    text-align: left;
+    color: #FFFFFF;
     font: normal normal 600 34px/15px Open Sans;
     letter-spacing: 0px;
-    color: #FFFFFF;
-    text-transform: uppercase;
     opacity: 1;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 .get-prize-text {
-    text-align: left;
+    color: #FFFFFF;
     font: normal normal normal 20px/28px Open Sans;
     letter-spacing: 0px;
-    color: #FFFFFF;
     opacity: 1;
+    text-align: left;
 }
 
 .get-prize-number {
@@ -402,70 +459,70 @@ h3 {
 
 .get-prize-bg1 {
     background: #F8F8F8 0% 0% no-repeat padding-box;
-    opacity: 1;
-    width: 155px;
-    height: 155px;
     border-radius: 1px 80px 80px 1px;
-    position: relative;
+    height: 155px;
     margin-top: 140px;
+    opacity: 1;
+    position: relative;
+    width: 155px;
 }
 
 .get-prize-bg2 {
     background: #F8F8F8 0% 0% no-repeat padding-box;
-    opacity: 1;
-    width: 155px;
-    height: 155px;
     border-radius: 1px 80px 80px 1px;
-    position: relative;
+    height: 155px;
     margin-bottom: 100px;
+    opacity: 1;
+    position: relative;
+    width: 155px;
 }
 
 .get-prize-circle1 {
     background: #EC4C7A 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    height: 130px;
+    margin-left: 13px;
+    margin-top: 13px;
     opacity: 1;
     position: absolute;
     width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    margin-top: 13px;
-    margin-left: 13px;
 }
 
 .get-prize-circle2 {
     background: #05DDC5 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    height: 130px;
+    margin-left: 13px;
+    margin-top: 13px;
     opacity: 1;
     position: absolute;
     width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    margin-top: 13px;
-    margin-left: 13px;
 }
 
 .get-prize-num {
-    text-align: center;
+    color: #FFFFFF;
     font: normal normal bold 40px/12px Open Sans;
     letter-spacing: 0px;
-    color: #FFFFFF;
     opacity: 1;
     padding-top: 15px;
+    text-align: center;
 }
 
-/* 8. MITRA DOCTORONCALL SECTION */
+/* 10. MITRA DOCTORONCALL SECTION */
 .partner-class-section {
     margin-top: 150px;
 }
 
 .partner-background {
-    margin-top: 780px;
-    background: #E5E5E54B 0% 0% no-repeat padding-box;
-    opacity: 1;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #E5E5E54B 0% 0% no-repeat padding-box;
     height: 737px;
-    width: 100%;
+    margin-top: 780px;
+    opacity: 1;
     position: relative;
+    width: 100%;
 }
 
 .partner-title-class {
@@ -474,46 +531,46 @@ h3 {
 }
 
 .partner-title-text {
-    text-align: center;
-    font: normal normal 600 34px/19px Open Sans;
     color: #414141;
+    font: normal normal 600 34px/19px Open Sans;
     letter-spacing: 0px;
     opacity: 1;
+    text-align: center;
     text-transform: none;
 }
 
 .partner-img {
-    background: transparent url('img/partners@2x.png') 0% 0% no-repeat padding-box;
-    opacity: 1;
-    height: 500px;
-    width: 1075px;
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: transparent url('img/partners@2x.png') 0% 0% no-repeat padding-box;
+    height: 500px;
+    opacity: 1;
     position: absolute;
+    text-align: center;
+    width: 1075px;
 }
 
-/* 9. FOOTER */
+/* 11. FOOTER */
 .footer1-background {
-    background: #EC4C7A 0% 0% no-repeat padding-box;
-    opacity: 1;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #EC4C7A 0% 0% no-repeat padding-box;
     height: 276px;
-    width: 100%;
+    opacity: 1;
     position: relative;
+    width: 100%;
 }
 
 .footer-text1 {
-    text-align: center;
+    color: #F8F8F8;
     font: normal normal 600 34px/15px Open Sans;
     letter-spacing: 0px;
-    color: #F8F8F8;
-    text-transform: uppercase;
     opacity: 1;
     padding: 70px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .footer-button-class {
@@ -524,24 +581,24 @@ h3 {
     background: rgb(46,90,169);
     background: linear-gradient(180deg, rgba(46,90,169,1) 40%, rgba(24,67,149,1) 100%);
     border-radius: 15px;
+    color: #fff;
     font: normal normal bold 20px/12px Open Sans;
     font-size: 16px;
-    color: #fff;
-    padding: 12px 40px;
-    width: 225px;
     height: 58px;
+    padding: 12px 40px;
     opacity: 1;
+    width: 225px;
 }
 
 .footer2-background {
     background: #10327A 0% 0% no-repeat padding-box;
-    opacity: 1;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     height: 147px;
-    width: 100%;
+    opacity: 1;
     position: relative;
+    width: 100%;
 }
 
 .footer-text-title2 {
@@ -550,8 +607,8 @@ h3 {
 
 .footer-text2 {
     font: normal normal normal 16px/12px Open Sans;
-    letter-spacing: 0px;
     color: #FFFFFF;
+    letter-spacing: 0px;
     opacity: 1;
     padding: 50px;
 }
