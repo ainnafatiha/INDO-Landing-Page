@@ -71,7 +71,7 @@ body {
     color: #fff;
     font: normal normal bold 20px/12px Open Sans;
     height: 56px;
-    margin: 30px;
+    /* margin: 30px; */
     padding: 12px 40px;
     width: 206px;
 }
@@ -101,7 +101,7 @@ body {
         border-radius: 5px;
         font: normal normal bold 11px/12px Open Sans;
         margin: 2px;
-        padding: 0px 6px;
+        padding: 5px 10px;
     }
 }
 
@@ -577,7 +577,6 @@ body {
     border-radius: 15px;
     color: #fff;
     font: normal normal bold 20px/12px Open Sans;
-    font-size: 16px;
     height: 58px;
     opacity: 1;
     padding: 12px 40px;
@@ -970,6 +969,7 @@ body {
     
     .footer-text1 {
         font: normal normal 500 18px/15px Open Sans;
+        line-height: 1.0em;
         padding: 30px;
     }
     
@@ -982,7 +982,7 @@ body {
         border-radius: 10px;
         font: normal normal bold 11px/12px Open Sans;
         height: 28px;
-        padding: 0px 30px;
+        padding: 5px 30px;
         width: 79px;
     }
     
