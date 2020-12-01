@@ -129,24 +129,9 @@ body {
     text-align: center;
 }
 
-@media(max-width: 768px) {
-    .intro-desc-class {
-        color: #fff;
-        padding: 50px 15px 0px 250px;
-        text-align: center;
-    }
-}
-
 .intro-banner-title {
     font: normal normal 600 34px/15px Open Sans;
     text-align: left;
-}
-
-@media(max-width: 768px) {
-    .intro-banner-title {
-        font: normal normal 600 24px/15px Open Sans;
-        text-align: left;
-    }
 }
 
 .short-intro {
@@ -155,6 +140,17 @@ body {
 }
 
 @media(max-width: 768px) {
+    .intro-desc-class {
+        color: #fff;
+        padding: 50px 15px 0px 250px;
+        text-align: center;
+    }
+
+    .intro-banner-title {
+        font: normal normal 600 24px/15px Open Sans;
+        text-align: left;
+    }
+
     .short-intro {
         font: normal normal normal 13px/28px Open Sans;
         text-align: left;
