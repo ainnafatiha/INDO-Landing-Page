@@ -57,7 +57,7 @@ body {
 }
 
 .title-indo {
-     color: #50A5D8;
+     color: #2E5AA9;
  }
 
 .maps-desc {
@@ -142,7 +142,7 @@ body {
 @media(max-width: 768px) {
     .intro-desc-class {
         color: #fff;
-        padding: 50px 15px 0px 250px;
+        padding: 50px 45px 10px 250px;
         text-align: center;
     }
 
@@ -152,7 +152,7 @@ body {
     }
 
     .short-intro {
-        font: normal normal normal 13px/28px Open Sans;
+        font: normal normal normal 14px/28px Open Sans;
         text-align: left;
     }
 }
@@ -196,6 +196,9 @@ body {
     width: 100%;
 }
 
+.benefits{
+    margin-top: 50px;
+}
 
 .benefits-bg-img {
     background: url('img/Group\ 51.svg');
@@ -206,7 +209,6 @@ body {
     margin-top: -30px;
     width: 100%;
 }
-
 
 .benefits-title {
     text-align: left;
@@ -223,7 +225,6 @@ body {
     box-shadow: 0px 4px 5px #00000029;
     height: 263px;
     padding: 10px;
-    width: 100%;
 }
 
 
@@ -285,16 +286,45 @@ body {
     width: 55%;
 }
 
+@media(max-width: 768px) {
+    .benefits-bg-img {
+        margin-top: -70px;
+        width: 100%;
+    }
+
+    .benefits-title {
+        font: normal normal 600 26px/42px Open Sans;
+    }
+
+    .benefits-card{
+        height: 200px;
+        padding: 10px;
+        width: 140px;
+    }
+
+    .benefits-card-title1 {
+        font: normal normal bold 14px/28px Open Sans;
+    }
+    
+    .benefits-card-title2 {
+        font: normal normal 14px/28px Open Sans;
+    } 
+    
+    .benefits-card-title3 {
+        font: normal normal 14px/28px Open Sans;
+    }
+
+    .benefits-card-title4 {
+        font: normal normal 14px/28px Open Sans;
+    }
+}
+
 @media(max-width: 576px) {
     .benefits-section {
         margin-top: 340px;
     }
 
     .benefits-bg-img {
-        background: url('img/Lines.svg');
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
         height: unset;
         padding: 25px;
     }
@@ -303,63 +333,44 @@ body {
         font: normal normal 600 18px/15px Open Sans;
         padding-left: 30px;
         padding-top: 20px;
-        padding-bottom: 30px;
-        text-transform: uppercase;
     }
 
     .benefits-card {
-        background: #10327A;
         border-radius:  0px 20px;
-        box-shadow: 0px 4px 5px #00000029;
         height: 110px;
         margin: 5px;
         width: 100px;
     }
 
     .benefits-card-title1 {
-        color: #FFFFFF;
         font: normal normal 600 9px/12px Open Sans;
-        text-align: center;
     }
 
     .benefits-card-title2 {
-        color: #FFFFFF;
         font: normal normal 600 9px/12px Open Sans;
-        text-align: center;
         margin-top: 15px;
     }
 
     .benefits-card-title3 {
-        color: #FFFFFF;
         font: normal normal 600 9px/12px Open Sans;
-        text-align: center;
         margin-top: 0px;
     }
 
     .benefits-card-title4 {
-        color: #FFFFFF;
         font: normal normal 600 9px/12px Open Sans;
-        text-align: center;
         margin-top: 10px;
     }
 
-    .benefits-card-img-1 {
-        display: block;
-    }
-
     .benefits-card-img-2 {
-        display: block;
         margin-top: 10px;
     }
 
     .benefits-card-img-3 {
-        display: block;
         margin-top: 10px;
         margin-left: 15px;
     }
 
     .benefits-card-img-4 {
-        display: block;
         margin-top: 10px;
         margin-left: 15px;
     }
@@ -376,7 +387,6 @@ body {
     background: linear-gradient(180deg, rgba(46,90,169,1) 40%, rgba(24,67,149,1) 100%);
     border-radius: 15px;
     font: normal normal bold 20px/12px Open Sans;
-    font-size: 16px;
     color: #fff;
     padding: 12px 40px;
     width: 225px;
@@ -384,10 +394,28 @@ body {
     opacity: 1;
 }
 
+@media(max-width: 576px) {
+    .benefits-button-section {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .benefits-button {
+        background: rgb(46,90,169);
+        background: linear-gradient(180deg, rgba(46,90,169,1) 40%, rgba(24,67,149,1) 100%);
+        border-radius: 7px;
+        font: normal normal bold 11px/12px Open Sans;
+        color: #fff;
+        padding: 5px 10px 5px 10px;
+        width: 79px;
+        height: 28px;
+        opacity: 1;
+    }    
+}
+
 /* 7. TIGA LANGKAH MUDAH SECTION */
 .three-steps-section {
     margin-top: 230px;
-    width: 100%;
 }
 
 .three-steps-title-class {
@@ -396,16 +424,15 @@ body {
 	text-align: left;
 }
 
-h3 {
+.three-steps-maintitle {
     font: normal normal 600 34px/42px Open Sans;
     letter-spacing: 0px;
     opacity: 1;
     text-transform: uppercase;
-    
 }
 
 .three-steps-card {
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF;
     border-radius: 5px 20px 5px;
     box-shadow: 0px 4px 5px #00000029;
     height: 393px;
@@ -460,6 +487,84 @@ h3 {
     text-align: left;
 }
 
+@media(min-width: 768px){
+    .three-steps-section {
+        margin-top: 205px;
+    }
+
+    .three-steps-card {
+        width: 100%;
+        height: 420px;
+    }
+    .three-steps-title-class {
+        text-align: center;
+    }
+
+    .three-steps-maintitle {
+        font: normal normal 600 26px/42px Open Sans;
+    }
+
+    .three-steps-title {
+        margin-top: 125px;
+        text-align: left;
+        line-height: 1.0em;
+    }
+}
+
+@media(max-width: 576px) {
+    .three-steps-section {
+        margin-top: 100px;
+    }
+
+    .three-steps-maintitle {
+        font: normal normal 600 18px/19px Open Sans;
+        letter-spacing: 0px;
+        opacity: 1;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .three-steps-card {
+        height: 120px;
+        width: 100%;
+        margin: 5px;
+    }
+
+    .three-steps-num {
+        height: 70px;
+        border-radius: 0px 10px;
+        margin-top: 10px;
+        width: 55px;
+    }
+
+    .numbered-steps {
+        font: normal normal 550 34px/12px Open Sans;
+        margin-top: 25px;
+        margin-left: 5px;
+    }
+
+    .three-steps-img {
+        float: right;
+        height: 36px;
+        margin-top: 5px;
+        width: 25px;
+    }
+
+    .three-steps-title {
+        font: normal normal 600 13px/12px Open Sans;
+        margin-top: 10px;
+        text-align: left;
+        padding-left: 70px;
+    }
+
+    .three-steps-text {
+        font: normal normal 13px/12px Open Sans;
+        margin-top: 10px;
+        text-align: left;
+        padding-left: 70px;
+        line-height: 1.5em;
+    }
+}
 /* 8. TIGA LANGKAH MUDAH BUTTON */
 .three-steps-button-section {
     margin-top: 95px;
@@ -479,6 +584,31 @@ h3 {
     width: 225px;
 }
 
+@media(max-width: 768px) {
+    .three-steps-button {
+        font: normal normal bold 20px/12px Open Sans;
+    }    
+}
+
+@media(max-width: 576px) {
+    .three-steps-button-section {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .three-steps-button {
+        background: rgb(46,90,169);
+        background: linear-gradient(180deg, rgba(46,90,169,1) 40%, rgba(24,67,149,1) 100%);
+        border-radius: 7px;
+        font: normal normal bold 11px/12px Open Sans;
+        color: #fff;
+        padding: 5px 10px 5px 10px;
+        width: 79px;
+        height: 28px;
+        opacity: 1;
+    }    
+}
+
 /* 9. DAPATKAN HADIAH SECTION */
 .get-prize-section {
     margin-top: 100px;
@@ -487,28 +617,24 @@ h3 {
 .get-prize-maintitle {
     color: #011132;
     font: normal normal 600 34px/15px Open Sans;
-    letter-spacing: 0px;
-    opacity: 1;
     text-align: center;
     text-transform: uppercase;
 }
 
 .get-prize-class {
-    background: #10327A 0% 0% no-repeat padding-box;
+    background: #10327A;
     float: right;
     height: 533px;
     margin-top: 30px;
-    opacity: 1;
     position: relative;
-    /* width: 93%; */
 }
 
 .get-prize-desc {
     color: #fff;
     text-align: center;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 70px;
+    padding-left: 280px;
+    padding-right: 180px;
+    padding-top: 105px;
 }
 
 .get-prize-title {
@@ -583,9 +709,125 @@ h3 {
     text-align: center;
 }
 
+@media(max-width:768px){
+    .get-prize-maintitle {
+        font: normal normal 600 26px/15px Open Sans;
+    }
+
+    .get-prize-class {
+        height: unset;
+        padding: 20px;
+    }
+    
+    .get-prize-desc {
+        padding-left: 200px;
+        padding-top: 20px;
+    }
+
+    .get-prize-title {
+        font: normal normal 600 26px/15px Open Sans;
+    }
+
+    .get-prize-bg1 {
+        margin-top: 104px;
+    }
+}
+
+@media(max-width: 576px) {
+    .get-prize-section {
+        margin-top: 40px;
+    }
+
+    .get-prize-maintitle {
+        font: normal normal bold 18px/15px Open Sans;
+    }
+
+    .get-prize-class {
+        float: right;
+        width: 309px;
+        height: 250px;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .get-prize-desc {
+        padding-left: 55px;
+        padding-right: 5px;
+        padding-top: 0px;
+    }
+    
+    .get-prize-title {
+        font: normal normal 600 13px/15px Open Sans;
+    }
+    
+    .get-prize-text {
+        font: normal normal normal 11px/16px Open Sans;
+    }
+    
+    .get-prize-number {
+        position: absolute;
+    }
+    
+    .get-prize-bg1 {
+        border-radius: 1px 80px 80px 1px;
+        height: 72px;
+        margin-top: 55px;
+        opacity: 1;
+        position: relative;
+        width: 72px;
+    }
+    
+    .get-prize-bg2 {
+        background: #F8F8F8;
+        border-radius: 1px 80px 80px 1px;
+        height: 72px;
+        margin-bottom: 100px;
+        opacity: 1;
+        position: relative;
+        width: 72px;
+    }
+    
+    .get-prize-circle1 {
+        background: #EC4C7A;
+        border-radius: 50%;
+        height: 52px;
+        margin-left: 13px;
+        margin-top: 13px;
+        opacity: 1;
+        position: absolute;
+        width: 52px;
+    }
+    
+    .get-prize-circle2 {
+        background: #05DDC5;
+        border-radius: 50%;
+        height: 52px;
+        margin-left: 13px;
+        margin-top: 13px;
+        opacity: 1;
+        position: absolute;
+        width: 52px;
+    }
+    
+    .get-prize-num {
+        font: normal normal bold 20px/12px Open Sans;
+        padding-top: 0px;
+        text-align: center;
+    }
+}
+
 /* 10. MITRA DOCTORONCALL SECTION */
 .partner-class-section {
     margin-top: 665px;
+}
+
+.partner-img-bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #E5E5E54B;
+    height: 520px;
+    width: 100%;
 }
 
 .partner-title-text {
@@ -600,18 +842,47 @@ h3 {
 .partner-img {
     background-position: center center;
     background-repeat: no-repeat;
-    /* background-size: cover; */
-    background-image: url('img/partners@2x.png');
-    background-color: #E5E5E54B;
+    background-size: cover;
     height: 460px;
-    opacity: 1;
-    /* padding-left: 35px;
-    padding-top: 10px; */
+    padding: 20px;
     width: 100%;
 } 
 
-/* 11. FOOTER */
-/* .footer1-background {
+@media(max-width: 768px){
+    .partner-class-section {
+        margin-top: 560px;
+    }
+
+    .partner-img-bg {
+        height: 450px;
+    }
+
+    .partner-img {
+        height: 350px;
+    }
+}
+
+@media(max-width: 576px) {
+    .partner-class-section {
+        margin-top: 320px;
+    }
+
+    .partner-title-text {
+        font: normal normal 600 18px/19px Open Sans;
+        padding-top: 10px;
+    }
+    
+    .partner-img-bg {
+        height: 220px;
+    } 
+
+    .partner-img {
+        height: 183px;
+    }
+}
+
+/* 11. FOOTER  */
+.footer1-background {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -654,7 +925,7 @@ h3 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 147px;
+    height: 140px;
     opacity: 1;
     position: relative;
     width: 100%;
@@ -666,8 +937,62 @@ h3 {
 
 .footer-text2 {
     font: normal normal normal 16px/12px Open Sans;
+    line-height: 1.5em;
     color: #FFFFFF;
-    letter-spacing: 0px;
-    opacity: 1;
+    margin: -5px;
     padding: 50px;
-} */
+}
+
+@media(max-width: 768px) {
+    .footer1-background {
+        height: 185px;
+    }
+
+    .footer2-background {
+        height: 100px;
+    }
+    
+    .footer-text1 {
+        padding: 30px;
+    }
+
+    .footer-text2 {
+        padding: 26px;
+        margin: -1px;
+        line-height: 1.5em;
+    }
+}
+
+@media(max-width: 576px) {
+    .footer1-background {
+        height: 115px;
+    }
+    
+    .footer-text1 {
+        font: normal normal 500 18px/15px Open Sans;
+        padding: 30px;
+    }
+    
+    .footer-button-class {
+        text-align: center;
+        margin-top: -35px;
+    }
+    
+    .footer-button {
+        border-radius: 10px;
+        font: normal normal bold 11px/12px Open Sans;
+        height: 28px;
+        padding: 0px 30px;
+        width: 79px;
+    }
+    
+    .footer2-background {
+        height: 45px;
+    }
+    
+    .footer-text2 {
+        font: normal normal normal 9px/12px Open Sans;
+        margin-top: -1px;
+        padding: 11px;
+    }
+}
