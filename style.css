@@ -1,5 +1,4 @@
 /* TABLE OF CONTENT
-
 1. BODY SECTION
 2. LOGO
 3. MAPS BANNER SECTION
@@ -37,7 +36,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('img/Map.png');
+    background-image: url('https://doc-cdn.s3-ap-southeast-1.amazonaws.com/ID-landing-page/map_bg.png');
     background-color: #fff;
     height: 403px;
     opacity: 1;
@@ -74,6 +73,13 @@ body {
     /* margin: 30px; */
     padding: 12px 40px;
     width: 206px;
+}
+
+.icon-arrow {
+    fill: #fff;
+    height: 24px;
+    padding-top: 9px;
+    width: 30px;
 }
 
 @media(max-width: 576px) {
@@ -117,7 +123,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    background: url('img/Group50.svg');
+    background: url('https://doc-cdn.s3-ap-southeast-1.amazonaws.com/ID-landing-page/blue_bg_with_lines.svg');
     height: 422px;
     margin-top: 30px;
     width: 100%;
@@ -170,7 +176,7 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         background-color: #10327A;
-        background-image: url('img/Lines.svg');
+        background-image: url('https://doc-cdn.s3-ap-southeast-1.amazonaws.com/ID-landing-page/lines_bg_mobile.svg');
         width: 85%;
         float: right;
         height: unset;
@@ -201,7 +207,7 @@ body {
 }
 
 .benefits-bg-img {
-    background: url('img/Group\ 51.svg');
+    background: url('https://doc-cdn.s3-ap-southeast-1.amazonaws.com/ID-landing-page/lines_bg.svg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -658,7 +664,7 @@ body {
 }
 
 .get-prize-bg1 {
-    background: #F8F8F8 0% 0% no-repeat padding-box;
+    background: #F8F8F8;
     border-radius: 1px 80px 80px 1px;
     height: 155px;
     margin-top: 140px;
@@ -668,7 +674,7 @@ body {
 }
 
 .get-prize-bg2 {
-    background: #F8F8F8 0% 0% no-repeat padding-box;
+    background: #F8F8F8;
     border-radius: 1px 80px 80px 1px;
     height: 155px;
     margin-bottom: 100px;
@@ -678,7 +684,7 @@ body {
 }
 
 .get-prize-circle1 {
-    background: #EC4C7A 0% 0% no-repeat padding-box;
+    background: #EC4C7A;
     border-radius: 50%;
     height: 130px;
     margin-left: 13px;
@@ -689,7 +695,7 @@ body {
 }
 
 .get-prize-circle2 {
-    background: #05DDC5 0% 0% no-repeat padding-box;
+    background: #05DDC5;
     border-radius: 50%;
     height: 130px;
     margin-left: 13px;
